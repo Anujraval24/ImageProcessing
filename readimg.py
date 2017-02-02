@@ -4,7 +4,7 @@ import cv2    # import opencv library as cv i.e. like a namespace
 import numpy as np # import numercial python numpy as np
 
 # load color image
-Img = cv2.imread('C:/Users/Administrator/Desktop/IP_Python_OpenCV/1.jpg',0)
+Img = cv2.imread('C:\Users\anujr\Downloads\messi.png',0)
 print Img.shape
 print Img.size
 print Img.dtype

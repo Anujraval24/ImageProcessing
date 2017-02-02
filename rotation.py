@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('C:\Users\Administrator\Desktop\IP_Python_OpenCV\gradient.png',0)
+img = cv2.imread('C:\Users\anujr\Downloads\messi.png',0)
 
 rows,cols = img.shape
 

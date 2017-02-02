@@ -5,8 +5,8 @@ import cv2   #import opencv library to use its functions
 import numpy as np #like a namespace is assigned to numpy
 e1 = cv2.getTickCount()
 # read the image from path
-Img=cv2.imread('C:\Users\Administrator\Desktop\IP_Python_OpenCV\OpenCV_Logo.png',0)
-Img1=cv2.imread('C:\Users\Administrator\Desktop\IP_Python_OpenCV\R Pi.png',0)
+Img=cv2.imread('C:\Users\anujr\Downloads\messi.png',0)
+Img1=cv2.imread('C:\Users\anujr\Downloads\messi1.png',0)
 s=Img.shape
 s1=Img1.shape
 #s_inv=(s(2),s(1))

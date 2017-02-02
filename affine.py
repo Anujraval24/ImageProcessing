@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-img = cv2.imread('C:\Users\Administrator\Desktop\IP_Python_OpenCV\gradient.png')
+img = cv2.imread('C:\Users\anujr\Downloads\messi.png')
 rows,cols,ch = img.shape
 
 pts1 = np.float32([[50,50],[200,50],[50,200]])

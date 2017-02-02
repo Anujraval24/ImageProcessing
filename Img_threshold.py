@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # read input gradient image from directory
-Img = cv2.imread('C:\Users\Administrator\Desktop\IP_Python_OpenCV\gradient.png',0)
+Img = cv2.imread('C:\Users\anujr\Downloads\messi.png',0)
 ret,th1 = cv2.threshold(Img,127,255,cv2.THRESH_BINARY)
 ret,th2 = cv2.threshold(Img,127,255,cv2.THRESH_BINARY_INV)
 ret,th3 = cv2.threshold(Img,127,255,cv2.THRESH_TRUNC)
